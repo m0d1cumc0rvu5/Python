@@ -19,9 +19,9 @@ percent_to_tip = input('What % of a tip shall we leave?(exlude %)\n')
 percent_to_tip = float(percent_to_tip) / 100
 #now resolve how much each individual person will be spending for/by % of tip
 results = overall_price * percent_to_tip / total_people
-results = int(results)
+results = '{:.2f}'.format(results)
 #print results with any other print statement if desired
-print('If you each give your waiter/waitress', results, 'they will be pleased I am sure!')
+print(f'If you each give your waiter/waitress ${results} they will be pleased I am sure!')
 
 
 
