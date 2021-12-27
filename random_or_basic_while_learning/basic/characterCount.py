@@ -3,8 +3,9 @@
 #counts the number of occurrences of each letter in a string.
 
 
-message = 'It was a bright cold day in April, and the clocks were striking thirteen.'
+message = 'The total amount of characters in this sentence would be...'
 count = {}
+
 
 
 for character in message:
