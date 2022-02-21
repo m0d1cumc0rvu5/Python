@@ -2,7 +2,7 @@
 
 '''
 
-Simple work/break timer to help you efficiently manage your time.
+Simple GUI work/break timer to help you efficiently manage your time.
 
 '''
 

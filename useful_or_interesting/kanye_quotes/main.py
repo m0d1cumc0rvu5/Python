@@ -1,3 +1,11 @@
+#!/usr/bin/env python3
+
+'''
+
+GUI Quotes from Kanye
+
+'''
+
 from tkinter import *
 import requests
 
