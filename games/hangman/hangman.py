@@ -11,7 +11,6 @@ end_of_game = False
 lives = 6
 from hangman_art import logo
 print(logo)
-#TODO-3: - Import the logo from hangman_art.py and print it at the start of the game.
 
 #Create blanks
 display = []
@@ -23,7 +22,6 @@ while not end_of_game:
 
     clear()
    
-    #TODO-4: - If the user has entered a letter they've already guessed, print the letter and let them know.
     if guess in display:
       print(f'You have already guessed {guess}')
 
@@ -52,6 +50,5 @@ while not end_of_game:
         end_of_game = True
         print("You win.")
 
-    #TODO-2: - Import the stages from hangman_art.py and make this error go away.
     from hangman_art import stages
     print(stages[lives])
