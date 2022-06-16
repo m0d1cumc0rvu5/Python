@@ -32,4 +32,4 @@ while should_continue:
     should_continue = False
     print('See ya!')
   if result == "clear":
-    os.system('clear')
+    os.system('clear') 
